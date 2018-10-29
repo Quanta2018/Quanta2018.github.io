@@ -1,5 +1,30 @@
+@font-face {
+    font-family: 'Circular-Black';
+    src: url('fonts/CircularStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Med';
+    src: url('fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Bold';
+    src: url('fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Book';
+    src: url('fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 .judul {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Circular-Book';
   font-size: 50px;
   color: #4834d4;
   text-align: center;
