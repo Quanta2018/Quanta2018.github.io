@@ -47,5 +47,8 @@ body{
   vertical-align: center;
 }
 .text{
-  padding-top: 0px
+  padding-top: 0px;
+}
+.test{
+  padding: 25px;
 }
