@@ -82,3 +82,46 @@
   left: 0px;
   position: relative;
 }
+.sambutan{
+  width: 550px;
+  margin-bottom: 0px;
+  font-family: Circular-Bold;
+  font-size: 68px;
+  line-height: 1.26;
+  text-align: left;
+  color: #161743;
+}
+.namaketang{
+  width: 800px;
+  margin-bottom: 0px;
+  font-family: Circular-Bold;
+  font-size: 34px;
+  line-height: 1.26;
+  float: right;
+  text-align: right;
+  color: #161743;
+}
+.ketang{
+  font-family: Circular-Book;
+  font-size: 25px;
+  line-height: 1.28;
+  float: right;
+  text-align: right;
+  color: #161743;
+}
+.isisambutan{
+  width: 500px;
+  margin-bottom: 0px;
+  font-family: Circular-Book;
+  font-size: 20px;
+  line-height: 1.25;
+  text-align: justify;
+  color: #707070;
+  padding-left: 1%;
+}
+.blob1{
+  width: 40%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
