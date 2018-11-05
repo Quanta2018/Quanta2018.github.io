@@ -169,3 +169,31 @@
     letter-spacing: normal;
     text-align: left;
     color: #707070;
+}
+
+.judulmakna{
+    width: 586px;
+    height: 129px;
+    font-family: "Circular-Bold";
+    font-size: 102px;
+    text-align: left;
+    color: #161743;
+
+}
+
+.isimakna{
+    width: 494px;
+    height: 468px;
+    font-family: "Circular-Book";
+    font-size: 20px;
+    text-align: left;
+    color: #707070;
+    margin-top: 7%
+}
+
+.quanta2{
+    width: 44.2%;
+    right: 0%;
+    position: absolute;
+    float: right;
+ }
