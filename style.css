@@ -146,7 +146,7 @@
 .sejarah {
     width: 356px;
     height: 129px;
-    font-family: CircularStd;
+    font-family: "Circular-Bold";
     font-size: 102px;
     font-weight: bold;
     font-style: normal;
@@ -160,7 +160,7 @@
 .isisejarah {
     width: 834px;
     height: 434px;
-    font-family: CircularStd;
+    font-family: "Circular-Book";
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -188,7 +188,7 @@
     font-size: 20px;
     text-align: left;
     color: #707070;
-    margin-top: 7%
+    margin-top: 7%;
 }
 
 .quanta2{
