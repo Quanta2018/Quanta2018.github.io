@@ -201,3 +201,24 @@
   font-family: "Circular-Bold";
   font-size: 40px;
 }
+.button1{
+  display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out,color 0.25s ease-out;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #cb1b5e;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 60px;
+    padding: 1.25rem;
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
+    font-size: 1rem;
+    box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
+}
