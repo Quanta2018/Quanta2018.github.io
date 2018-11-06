@@ -197,3 +197,7 @@
     position: absolute;
     float: right;
  }
+.navi{
+  font-family: "Circular-Bold";
+  font-size: 40px;
+}
