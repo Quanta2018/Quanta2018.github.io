@@ -158,6 +158,8 @@
 }
 
 .isisejarah {
+	text-align:justify;
+	text-indent:10%;
     width: 834px;
     height: 434px;
     font-family: "Circular-Book";
