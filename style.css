@@ -158,15 +158,10 @@
 }
 
 .isisejarah {
-<<<<<<< HEAD
-    text-indent: 20%;
+    text-indent: 10%;
+    width: 700px;
+    margin-bottom: 0%;
     text-align: justify;
-=======
-	text-align:justify;
-	text-indent:10%;
->>>>>>> 34f681d4c4916a52c43460f1f5a6b34596d3695b
-    width: 834px;
-    height: 434px;
     font-family: "Circular-Book";
     font-size: 20px;
     font-weight: normal;
