@@ -25,7 +25,7 @@
     font-weight: 500;
     font-style: normal;
 }
-
+@media screen and (min-width:950px){
 .judul {
     font-family: 'Circular-Book';
     font-size: 50px;
@@ -203,6 +203,7 @@
   font-family: "Circular-Bold";
   font-size: 40px;
 }
+}
 .button1{
   display: inline-block;
     vertical-align: middle;
@@ -223,4 +224,86 @@
     padding-left: 3.0rem;
     font-size: 1rem;
     box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
+    width: auto;
+    height: auto;
+}
+/* Ini untuk mobileee */
+.mobile-block{
+    display: none;
+}
+
+@media screen and (max-width:950px){
+    /* GROUPED */
+    #mobile-btn-about,#mobile-btn-game{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    /* SELF */
+    .mobile-block{
+        display: block;
+        width: 100vw;
+        background-size: cover;
+        font-size: 2em;
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background-color:White;
+    }
+    .mobile-wrapper{
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+        opacity: .8;
+        position: relative;
+        top: 10%;
+        vertical-align: middle;
+    }
+    .mobile-text{
+      font-family: "Circular-Book";
+      font-size: 100%;
+      color: #2f3640;
+      vertical-align: middle;
+    }
+    .button-wrapper{
+      height: 3em;
+      margin-top: 5em;
+      position: relative;
+      font-size: .5em;
+    }
+    .buttonisi{
+      height: 100%;
+    text-align: center;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1em 0;
+    margin: 0 auto;
+}
+.tombol{
+  width: 100px;
+  height: 100%;
+  border: 1px;
+  background-color: Black;
+}
+    }
+span:before {
+  content:"Punten, teu tiasa ditempoan dina hape.";
+  animation: animate infinite 15s;
+  animation-timing-function: ease-in;
+}
+@keyframes animate {
+  0%{
+    content:"Punten, teu tiasa ditempoan dina hape.";
+  }
+  20%{
+    content:"Maaf, tidak bisa dilihat dari ponsel";
+  }
+  40%{
+    content:"죄송합니다. 휴대 기기에서 볼 수 없습니다.";
+  }
+  60%{
+    content:"عذرا ، لا يمكن رؤيتها من الهاتف المحمول";
+  }
+  80%{
+    content:"对不起，这个网站在手机上看不到";
+  }
 }
