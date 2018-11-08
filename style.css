@@ -158,6 +158,8 @@
 }
 
 .isisejarah {
+    text-indent: 20%;
+    text-align: justify;
     width: 834px;
     height: 434px;
     font-family: "Circular-Book";
@@ -167,7 +169,6 @@
     font-stretch: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    text-align: left;
     color: #707070;
 }
 
@@ -182,7 +183,7 @@
 }
 
 .isimakna{
-    width: 494px;
+    width: 700px;
     height: 468px;
     font-family: "Circular-Book";
     font-size: 20px;
@@ -192,7 +193,7 @@
 }
 
 .quanta2{
-    width: 44.2%;
+    width: 30%;
     right: 0%;
     position: absolute;
     float: right;
@@ -202,7 +203,7 @@
   font-size: 40px;
 }
 .button1{
-  display: inline-block;
+    display: inline-block;
     vertical-align: middle;
     -webkit-appearance: none;
     border: 1px solid transparent;
@@ -221,4 +222,131 @@
     padding-left: 3.0rem;
     font-size: 1rem;
     box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
+}
+.judulmereka{
+    width: 596px;
+    height: 129px;
+    font-family: "Circular-Bold";
+    font-size: 100px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    color: #161743;
+}
+.gambarmereka{
+    box-shadow:5px 10px #ccc; 
+    border-radius: 40px;
+    width: 192.5px;
+    height: 192.5px;
+}
+.katamereka{
+    margin-top: 10%;
+    font-family: "Circular-Book";
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #484848;
+}
+.namamereka{
+    font-family: "Circular-Med";
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #484848;
+}
+.jabatanmereka{
+    font-family: "Circular-Book";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #484848;
+}
+.list{
+    display: inline-block;
+    list-style: none;
+}
+
+.banner{
+    max-width: 105%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+.bottombar{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 102%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+.teamwork{
+    margin-top: -40%;
+    padding-left: 50%;
+    width: 200%;
+    height: 1%;
+    font-family: "Circular-Bold";
+    font-size: 38px;
+    line-height: 1.26;
+    color: #ffffff;
+}
+.whomade{
+    margin-top: 17%;
+    padding-left: 80%;
+    width: 200%;
+    height: 1%;
+    font-family: "Circular-Book";
+    font-size: 21px;
+    line-height: 1.29;
+    color: #ffffff;
+}
+.buttontop{
+    margin-top: -50%;
+    margin-right: -500%;
+    width: 122px;
+    font-size: 35px;
+    font-family: "Circular-Book";
+    height: 122px;
+    color: #ffffff;
+    background-color: #ea5167;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.buttontop:hover {
+    background-color: #ea4067;
+}
+
+.buttonteam{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out,color 0.25s ease-out;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #d85478;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 60px;
+    padding: 1.25rem;
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
+    font-size: 1rem;
 }
