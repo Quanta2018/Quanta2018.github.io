@@ -159,7 +159,7 @@
 
 .isisejarah {
     text-indent: 10%;
-    width: 700px;
+    width: 900px;
     margin-bottom: 0%;
     text-align: justify;
     font-family: "Circular-Book";
@@ -397,8 +397,6 @@ span:before {
     color: #ffffff;
 }
 .buttontop{
-    margin-top: -50%;
-    margin-right: -500%;
     width: 122px;
     font-size: 35px;
     font-family: "Circular-Book";
@@ -415,6 +413,8 @@ span:before {
 }
 
 .buttonteam{
+    height: 7%;
+    width: 19%;
     display: inline-block;
     vertical-align: middle;
     -webkit-appearance: none;
@@ -428,8 +428,6 @@ span:before {
     color: #fff;
     transition: all .3s;
     border-radius: 60px;
-    padding: 1.25rem;
-    padding-right: 3.0rem;
-    padding-left: 3.0rem;
     font-size: 1rem;
+    box-shadow: 0 32px 64px 0 rgba(203, 27, 94, 0.5);
 }
