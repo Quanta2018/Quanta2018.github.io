@@ -124,6 +124,9 @@
     text-align: right;
     color: #161743;
 }
+body{
+  overflow-x: hidden;
+}
 
 .isisambutan {
     width: 500px;
