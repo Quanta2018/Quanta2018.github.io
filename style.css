@@ -259,6 +259,7 @@ body{
         position: relative;
         top: 10%;
         vertical-align: middle;
+		overflow: hidden;
     }
     .mobile-text{
       font-family: "Circular-Book";
@@ -271,6 +272,7 @@ body{
       margin-top: 5em;
       position: relative;
       font-size: .5em;
+	  overflow: hidden;
     }
     .buttonisi{
       height: 100%;
