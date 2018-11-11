@@ -235,12 +235,10 @@ body{
 }
 
 @media screen and (max-width:950px){
-    /* GROUPED */
     #mobile-btn-about,#mobile-btn-game{
         display: table-cell;
         vertical-align: middle;
     }
-    /* SELF */
     .mobile-block{
         display: block;
         width: 100vw;
@@ -248,8 +246,8 @@ body{
         font-size: 2em;
         margin: 0;
         height: 100%;
-        overflow: hidden;
         background-color:White;
+        overflow-x: hidden;
     }
     .mobile-wrapper{
         height: 80%;
@@ -259,11 +257,10 @@ body{
         position: relative;
         top: 10%;
         vertical-align: middle;
-		overflow: hidden;
     }
     .mobile-text{
       font-family: "Circular-Book";
-      font-size: 100%;
+      font-size: 60%;
       color: #2f3640;
       vertical-align: middle;
     }
